@@ -202,7 +202,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-d3-shape@npm:^0.3.25":
+react-d3-shape@0.3.25:
   version: 0.3.25
   resolution: "react-d3-shape@npm:0.3.25"
   dependencies:
@@ -214,6 +214,21 @@ __metadata:
     react: ^0.14.7
     react-dom: ^0.14.7
   checksum: 3/8b5fd8b0273cf357f565e9d45b6133d4fed928e150ab41cac60154c5364ed4eca14f1c0c1750302c9e3b26f608cc985db54efbd978c86c2d0e2a2d32cf6f13e7
+  languageName: node
+  linkType: hard
+
+"react-d3-shape@patch:react-d3-shape@0.3.25#./patch::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.3.25
+  resolution: "react-d3-shape@patch:react-d3-shape@npm%3A0.3.25#./patch::version=0.3.25&hash=5280a0&locator=root-workspace-0b6124%40workspace%3A."
+  dependencies:
+    d3: ^3.5.6
+    d3-scale: ^0.6.4
+    d3-shape: ^0.5.1
+    react-d3-core: ^1.2.8
+  peerDependencies:
+    react: ^0.14.7
+    react-dom: ^0.14.7
+  checksum: 3/abc04df0d72ac1c6cf2e0ddc70964992a4fb0c2a346011188307f98ceba57a9f9ea97a7929481f4b027ce60c83f5e6ca9bf3b473b7be7804594e0fbda074322b
   languageName: node
   linkType: hard
 
@@ -233,7 +248,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    react-d3-shape: ^0.3.25
+    react-d3-shape: "patch:react-d3-shape@0.3.25#./patch"
   languageName: unknown
   linkType: soft
 
